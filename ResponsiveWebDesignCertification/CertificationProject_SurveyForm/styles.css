@@ -1,0 +1,114 @@
+h1, #description{
+    text-align: center;
+    color: white;
+}
+h1{
+    margin-bottom: -5px;
+}
+p{
+    /* margin-top: 10px; */
+    font-weight: 100;
+    margin-bottom: 2px;;
+}
+#description{
+    margin-bottom: 30px;
+    font-style: italic;
+}
+
+body{
+    background-image: linear-gradient( 115deg, rgba(58, 58, 158, 0.8), rgba(136, 136, 206, 0.7) ), url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.   rem;
+    font-weight: 400;
+    line-height: 1.4;
+}
+#dropdown{
+    padding: 1px 2px;
+}
+
+form{
+    width: 40vw;
+    margin: 0 auto;
+    background-color: rgba(27, 27, 50, 0.8);
+    color: white;
+    padding: 30px;
+}
+
+input{
+    height: 30px;
+    width: 95%;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    /* margin-right:px; */
+    background-color: rgba(27, 27, 50, 0.8);
+    border: 1px solid rgba(27, 27, 50, 0.8);
+    color: white;
+}
+select{
+    background-color: rgba(27, 27, 50, 0.8);
+    color: white;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+label{
+    width: 100%;
+    margin-bottom: 0.2em;
+}
+
+input, label, select{
+    /* margin: unset; */
+    display: block;
+}
+input[type="radio"], input[type="checkbox"]{
+    all:revert;
+    margin: 0 8px 2px 0;
+    vertical-align: middle;
+    accent-color: rgba(27, 27, 50, 0.8);;
+}
+/* input[type="checkbox"]{
+    all:revert;
+
+} */
+ul{
+    padding: 0;
+    list-style-type: none;
+    margin-left: 0;
+}
+li{
+    margin-left: 0;
+}
+
+#last-recommend-option{
+    margin-bottom: 10px;
+}
+
+#submit{
+    margin: unset;
+    margin-top: 10px;
+    width: 100%;
+    background-color: #37AF65;
+    color: #F3F3F3;
+    border: 1px solid #37AF65;
+    border-radius: 5px;
+    height: 30px;
+}
+
+#submit:hover{
+    background-color: #12ae4c;
+}
+
+#improve-optional-content, #age-optional{
+    font-size: 0.85em;
+}
+#comments{
+    margin-top: 5px;
+    padding: 10px;
+    background-color: rgba(27, 27, 50, 0.8);
+    border: 1px solid rgba(27, 27, 50, 0.8);
+    color: white;
+    width: 95%;
+}
