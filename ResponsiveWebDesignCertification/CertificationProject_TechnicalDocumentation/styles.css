@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    box-sizing: border-box;
+    width: 100%;
+}
+
+body {
+    height: auto;
+    width: 100%;
+    font-family: 'Open Sans', Arial, sans-serif;
+}
+
+#navbar {
+    width: 22vw;
+    position: fixed;
+    display: block;
+    top: 0;
+    height: 100%;
+}
+#navbar ul{
+    height: 88vh;
+    overflow-y: scroll;
+}
+
+#navbar header {
+    text-align: center;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 1.1rem;
+}
+
+#main-doc {
+    width: 83%;
+    margin-left: 14%;
+    font-size: 1.1rem;
+    padding-left: 30px;
+}
+
+.main-header {
+    padding: 20px;
+    font-size: 1.4rem;
+}
+
+.main-section {
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.content {
+    color: #4d4e53;
+    padding-left: 30px;
+    font-size: 0.7rem;
+    line-height: 1.5;
+}
+
+.content>p {
+    padding: 5px;
+}
+
+.content ul {
+    margin-left: 50px;
+}
+
+.content li {
+    margin: 20px;
+}
+
+.content code {
+    display: block;
+    text-align: left;
+    white-space: pre-line;
+    position: relative;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 2;
+    background-color: #f7f7f7;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#navbar li{
+    list-style-type: none;
+}
+#navbar li a{
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    border-top: solid 1px coral;
+    display: block;
+    padding: 10px 25px;
+    color: #4d4e53;
+    text-decoration: none;
+    cursor: pointer;
+    font-size: 0.9rem;
+}
+
+@media (max-width: 600px) {
+    #navbar{
+        all:revert;
+        width: 95vw;
+        display: block;
+        height: 40%;
+    }
+    #navbar ul{
+        height: 50vh;
+        overflow-y: scroll;
+        width: 95vw;
+        margin: 0 auto;
+    }
+    #navbar a{
+        text-align: center;
+    }
+    #main-doc{
+        all:revert;
+        overflow: auto;
+        width: 95%;
+        font-size: 1.1rem;
+    }
+    .main-header{
+        text-align: center;
+    }
+    .main-section{ 
+        margin: 0 auto !important;
+    }
+    #main-section li{
+        padding-left: 10p;
+    }
+}
