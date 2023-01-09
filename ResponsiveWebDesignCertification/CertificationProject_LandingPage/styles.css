@@ -1,0 +1,215 @@
+@import 'https://fonts.googleapis.com/css?family=Lato:400,700';
+
+.html{
+    box-sizing: border-box;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #EEEEEE;
+    font-family: Lato, sans-serif;
+    max-width: 100%;
+    /* overflow-x: hidden; */
+}
+
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    background-color: #eee;
+}
+#head-name{
+    width: 58vw;
+}
+#header-img{
+    width: 50%;
+    padding: 15px;
+    
+}
+#nav-bar{
+    width: 40vw;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+#nav-bar a{
+    text-decoration: none;
+    color: black;
+    padding: 20px 10px 0 0;
+}
+#form{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+#form input{
+    display: block;
+    margin: 10px auto;
+}
+#email{
+    width: 20%;
+    padding: 5px;
+}
+#submit:hover{
+    background-color: orange;
+}
+#submit{
+    background-color: #f1c40f;
+    border-radius: 8px;
+    border: 1px solid black;
+    width: 14%;
+    font-weight: 900;
+    cursor: pointer;
+}
+.icon{
+    color: darkorange;
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+#features{
+    width: 60%;
+    margin: 30px auto;
+}
+.feat{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.content{
+    padding: 10px;
+    width: 80%;
+}
+.content p{
+    font-size: small;
+}
+#how-it-works{
+    margin: 50px auto;
+}
+#video{
+    display: block;
+    margin: 0 auto;
+    width: 40%;
+}
+
+.trombone-type{
+    border: 1px solid black;
+    width: 30%;
+}
+.trombone-type p{
+    padding: 10px;
+    
+}
+#pricing{
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    width: 70%;
+    justify-content: space-evenly;
+}
+#pricing .name{
+    background-color: #DDDDDD;
+    padding: 10px 20px;
+    text-align: center;
+}
+#pricing .name h3{
+    font-size: small;
+    font-weight: 700;
+}
+#pricing .price-content{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#pricing .button{
+    width: 60%;
+    margin: 0 auto;
+}
+#pricing .amount{
+    text-align: center;
+}
+#pricing .amount p{
+    font-weight: 900;
+    font-size: larger;
+}
+
+.btn{
+    display: block;
+    background-color: #f1c40f;
+    text-transform: uppercase;
+    padding: 10px 20px;
+    margin: 0 auto;
+    border: none;
+    border: 1px solid #f1c40f;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: orange;
+}
+#footer{
+    width: 70%;
+    background-color: #DDDDDD;
+    margin: auto;
+    list-style-type: none;
+    text-align: right;
+    padding: 10px;
+    padding-bottom: 15px;
+    font-size: small;
+}
+#footlist{
+    display: flex;
+    justify-content: flex-end;
+}
+#footlist li{
+    list-style-type: none;
+    padding: 5px;
+}
+#footlist li a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+#footer p{
+    font-size: 0.8em;
+}
+
+@media (max-width: 768px) {
+    #header{
+        justify-content: center;
+        font-size: 0.8rem;
+        /* height: 30vw; */
+    }
+    #head-name{
+        width: 90vw !important;
+        /* padding: 25px; */
+    } 
+    #header-img{
+        display: block;
+        margin: 0 auto;
+    }
+    #email{
+        width: 60vw;
+    }
+    #submit{
+        width: 50vw;
+    }
+    #video{
+        width: 80vw;
+    }
+    #pricing .trombone-type{
+        width: 60vw;
+        margin-bottom: 20px;   
+    }
+}
+@media (max-width: 500px){
+    #header{
+        font-size: 0.5rem;
+    }
+}
