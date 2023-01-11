@@ -190,6 +190,7 @@ body{
 
 .social-links{
     width: 80%;
+    height: 40vh;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto; 
@@ -250,7 +251,7 @@ footer{
     }
 }
 
-@media (max-width: 768px){
+@media (max-width: 900px){
     #navbar ul{
         width: 72%;
     }
@@ -258,13 +259,57 @@ footer{
         width: 25%;
     }
     .project-links{
-        grid-template-columns: 45% 45%;
+        grid-template-columns: 50% 50%;
         grid-template-rows: auto;
         grid-gap: 7vh 3vw;
         justify-content: center;
     }
+    .link{
+        height: 50vh;
+    }
+    .project-title{
+        width: 90%;
+        font-size: 3rem;
+    }
+    /* .project-links{
+        grid-template-columns: 97%;
+        grid-template-rows: auto;
+        grid-gap: 7vh 3vw;
+        justify-content: center;
+    } */
+    .lets-work{
+        padding: 10vh 10vw 0vh 10vw;
+    }
+    .lets-work h1{
+        width: 90%;
+        font-size: 3rem;
+        font-family: Raleway, sans-serif;
+    }
+    .social-links{
+        width: 100%;
+        padding: 10%;
+        justify-content: space-evenly;
+    }
+    .social-link{
+        width: 40%;
+        height: 0%;
+        text-align: center;
+    }
+    .social-link a{
+        font-size: 1.4rem;
+    }
+    .link a{
+        font-size: 1.2rem;
+    }
+    footer{
+        height: 9vh;
+        font-size: 0.8rem;
+    }
+    .foot-link{
+        text-align: left;
+    }
 }
-@media (max-width: 480px){
+@media (max-width: 550px){
     #navbar ul{
         width: 97%;
     }
@@ -274,13 +319,45 @@ footer{
     #navbar li{
         padding: 5px;
     }
+    .project-title{
+        width: 90%;
+        font-size: 3rem;
+    }
     .project-links{
-        grid-template-columns: 70%;
+        grid-template-columns: 97%;
         grid-template-rows: auto;
         grid-gap: 7vh 3vw;
         justify-content: center;
     }
-    .link{
-        height: 70vh;
+    .lets-work{
+        padding: 10vh 10vw 0vh 10vw;
+    }
+    .lets-work h1{
+        width: 90%;
+        font-size: 3rem;
+        font-family: Raleway, sans-serif;
+    }
+    .social-links{
+        width: 100%;
+        padding: 10%;
+        justify-content: space-evenly;
+    }
+    .social-link{
+        width: 40%;
+        height: 0%;
+        text-align: center;
+    }
+    .social-link a{
+        font-size: 1.4rem;
+    }
+    .link a{
+        font-size: 1.4rem;
+    }
+    footer{
+        height: 9vh;
+        font-size: 0.8rem;
+    }
+    .foot-link{
+        text-align: left;
     }
 }
